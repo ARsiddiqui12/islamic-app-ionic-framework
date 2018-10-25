@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="body" padding>
+
+<div class="buttonstyle">
+
+  <button ion-button round full [navPush]="HolyquranPage">
+   Holy Quran 
+  </button>
+
+  <button ion-button round full [navPush]="AhadeesPage">
+    Ahadees
+   </button>
+
+   <button ion-button round full [navPush]="NamazPage">
+    Namaz
+   </button>
+
+   <button ion-button round full [navPush]="KalimasPage">
+    Kalimas
+   </button>
+
+   <button ion-button round full [navPush]="DuroodSharifPage">
+    Durood Sharif And Duas
+   </button>
+
+   <button ion-button round full menuToggle>
+   Menu   
+   </button>
+
+</div>
+
+
+</ion-content>
